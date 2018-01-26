@@ -1,0 +1,214 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#ligne1{
+	border: 2px solid black;
+	width: 100%;
+}
+
+#ligne2{
+	border:2px solid #00678e;
+	width: 100%;
+	margin-top: 5px;
+}
+
+#logo img{
+	margin-left: 100px;
+	margin-top: 10px;
+	float: left;
+	height: 30px;
+}
+
+#menu li{
+    
+    list-style: none; 
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+li>a{
+	display: block;
+	line-height: 45px;
+	font-family: cursive;
+	text-decoration: none;
+	color: #00678e;
+}
+
+#compte{
+	position: relative;
+	bottom: 10px;
+}
+
+#compte i{
+	position: relative;
+	margin-left: 300px;
+
+	border: 2px solid #a6a6a6;
+	background-color: #a6a6a6;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+#compte span{
+	color:#00678e; 
+}
+
+#menu span{
+	color: orange;
+	margin-left: 20px;
+	position: relative;
+    top:20px;
+}
+
+#slid{
+	text-align: center;
+
+}
+
+#slid img{
+	width: 900px;
+	height: 400px;
+    margin-top: 20px;
+    z-index: 0;
+
+}
+
+#brd{
+	border:2px solid white;
+	width: 450px;
+	height: 250px;
+	z-index: 2;
+	position: relative;
+	left: 470px;
+	bottom: 340px;
+    background-color: white;
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	font-size: 14px;
+}
+
+.button{
+	position: relative;
+	left: 120px;
+    top: 20px;
+    width: 200px;
+    height: 40px; 
+    border-radius: 4px;
+    color: white;
+    background-color: #00678e;
+    cursor: pointer;
+}
+
+.contenu{
+	border:2px solid black;
+	width: 300px;
+	height: 500px;
+	float: left;
+    position: relative;
+    left: 330px;
+    bottom: 250px;
+    margin: 20px;
+}
+
+h4{
+	text-align: center;
+	font-size: 20px;
+}
+
+h5{
+	font-size: 20px;
+	position: relative;
+	top: 80px;
+}
+
+.contenu p{
+	font-weight: bold;
+	font-size: 15px;
+	position: relative;
+	top: 80px;
+}
+
+.contenu img{
+	position: relative;
+	top: 100px;	
+}
+
+.para{
+    position: relative;
+    left: 35px;
+}
+
+#btn2{
+	position: relative;
+	top: 100px;
+	left: 40px
+}
+
+#btn3{
+	position: relative;
+	top: 100px;
+	left: 40px
+}
+
+#ligne3{
+	border:2px solid blue;
+	position: relative;
+	top: 400px;
+}
+
+#zz ul li{
+	position: relative;
+	top: 430px;
+	right: 500px;
+	display: block;
+}
+
+.b{
+	border: 1px solid block;
+}
+
+footer #img{
+	position: relative;
+	top: 300px;
+	right: 280px;
+}
+
+footer #img1{
+	position: relative;
+	top: 200px;
+	right: 50px;
+}
+
+footer #ico_email{
+	position: relative;
+	top: 100px;
+	left: 400px;
+
+
+}
+
+footer #ico_twi{
+	position: relative;
+	top: 100px;
+	left: 180px;
+}
+
+footer .pp{
+	position: relative;
+	left: 250px;
+	top: 70px;
+}
+
+footer #flech{
+	position: relative;
+	left: 500px;
+	top: 100px;
+}
