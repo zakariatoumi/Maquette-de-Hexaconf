@@ -217,4 +217,57 @@ footer #flech{
 	top: 100px;
 }
 
+@media (max-width: 500px) {
+	.conteneur{
+		width: 100%;
+	}
+
+	#brd{
+		height: 300px;
+		width: 50%;
+		position: relative;
+		left: 60px;
+	}
+
+	h2 , p , li , h4 ,h5{
+		font-size: 9px;
+	}
+
+	.contenu {
+		float: none;
+		width: 95%;
+		height: 400px;
+		position: relative;
+		left: 10px;
+	}
+
+	.contenu p{
+        font-size: 8px;
+	}
+
+	#compte i{
+		margin-left: 90px;
+		margin-top: 30px;
+	}
+     
+	footer #ico_twi{
+		position: relative;
+		top: 250px;
+		left: -200px;
+	}
+
+	footer #ico_email,footer .pp{
+		position: relative;
+		top:300px; 
+		left: 20px;
+	}
+
+	footer #flech{
+		position: relative;
+		left: 200px;
+	}
+
+
+}
+
 
